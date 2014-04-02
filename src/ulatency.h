@@ -21,9 +21,9 @@
 #define __ulatency_h__
 #include <glib.h>
 #include <gio/gio.h>
-#include <lua.h>
-#include <lualib.h>
-#include <lauxlib.h>
+#include <lua5.1/lua.h>
+#include <lua5.1/lualib.h>
+#include <lua5.1/lauxlib.h>
 #include <time.h>
 #include <stdint.h>
 #include <proc/procps.h>
