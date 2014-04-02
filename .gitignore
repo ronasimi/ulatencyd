@@ -1,0 +1,31 @@
+config.h
+*.patch
+*.[oa]
+*.so
+.kdbgrc.*
+src/ulatencyd
+src/ulatencyd_cleanup.lua
+tests/test_xwatch
+*~
+Makefile
+# globals
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+tests/memleak
+docs/api
+docs/html
+docs/txt
+docs/wiki
+
+.nfs*
+
+# cmake 
+cmake_install.cmake
+CMakeFiles
+CMakeCache.txt
+CTestTestfile.cmake
+Testing
+install_manifest.txt
+tests/forkbomb
